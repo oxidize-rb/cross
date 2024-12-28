@@ -18,6 +18,7 @@ std = true
 run = true
 runners = "native qemu-user qemu-system"
 deploy = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "x86_64-unknown-linux-musl"
@@ -53,6 +54,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "arm-unknown-linux-gnueabi"
@@ -78,6 +80,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "armv7-unknown-linux-gnueabihf"
@@ -96,6 +99,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "i586-unknown-linux-gnu"
@@ -104,6 +108,7 @@ cpp = true
 dylib = true
 std = true
 run = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "i686-unknown-linux-gnu"
@@ -113,6 +118,7 @@ dylib = true
 std = true
 run = true
 runners = "native qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "loongarch64-unknown-linux-gnu"
@@ -141,6 +147,7 @@ std = true
 run = true
 runners = "qemu-user"
 build-std = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "mipsel-unknown-linux-gnu"
@@ -151,6 +158,7 @@ std = true
 run = true
 runners = "qemu-user qemu-system"
 build-std = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "mips64-unknown-linux-gnuabi64"
@@ -160,6 +168,7 @@ dylib = true
 std = true
 run = true
 build-std = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "mips64el-unknown-linux-gnuabi64"
@@ -170,6 +179,7 @@ std = true
 run = true
 runners = "qemu-user qemu-system"
 build-std = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 disabled = true # https://github.com/cross-rs/cross/issues/1422
@@ -199,6 +209,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "powerpc64-unknown-linux-gnu"
@@ -208,6 +219,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "powerpc64le-unknown-linux-gnu"
@@ -217,6 +229,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "riscv64gc-unknown-linux-gnu"
@@ -226,6 +239,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "s390x-unknown-linux-gnu"
@@ -235,6 +249,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "sparc64-unknown-linux-gnu"
@@ -244,6 +259,7 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "aarch64-unknown-linux-musl"
@@ -276,6 +292,7 @@ cpp = true
 dylib = true
 std = true
 run = true
+platforms = ["linux/amd64", "linux/arm64/v8"]
 
 [[target]]
 target = "armv5te-unknown-linux-musleabi"
@@ -537,3 +554,4 @@ dylib = true
 std = true
 run = true
 runners = "qemu-user qemu-system"
+platforms = ["linux/amd64", "linux/arm64/v8"]
